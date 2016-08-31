@@ -14,6 +14,8 @@
     "fonts",
     "css"
   ],
+  "main": "normalize-opentype.css",
+  "style": "normalize-opentype.css",
   "scripts": {
     "build-css": "node-sass normalize-opentype.scss normalize-opentype.css",
     "build-prefix": "autoprefixer normalize-opentype.css",
